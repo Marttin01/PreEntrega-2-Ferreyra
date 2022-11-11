@@ -5,19 +5,13 @@ html {
 }
 
 body {
-    background-color: #ffd8be
+    background-color: white
 }
 
 img {
     max-width: 100%;
 }
 
-
-ul, li{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 
 h1 {
     display: inline;
@@ -92,47 +86,6 @@ h1 {
     padding: 1rem;
     font-size: .8rem;
     font-weight: 660;
-}
-
-
-.nav  {
-    display: flex;
-    gap: 0rem;
-    margin-bottom: 3rem;
-    justify-content: center;
-    
-}
-
-
-
-.nav img {
-    height: 2rem; width: 2rem;
-}
-.navegacion {
-    width: 100%;
-    
-}
-
-.nav a{
-    text-decoration: none;
-    padding: 1rem;
-    color: white;
-    border: 1px white  solid;   
-    padding-right: 4.3rem;
-    padding-left: 4.3rem;
-    background-color: none;
-    border-top: none;
-   border-right: none;
-   border-left: none;
-}
-
-
-
-.nav a:hover {
-    border-bottom: 1px #b8b8ff solid ;
-    transition: .5s;
-    font-size: 1.1rem;
-    font-weight: 450;
 }
 
 #conteiner {
@@ -304,3 +257,4 @@ h1 {
 #pie img {
     width: 5rem; width: 5rem; 
 }
+
