@@ -30,8 +30,6 @@ h1 {
     "conteiner  conteiner   conteiner"
     "banner     centralimg  banner2"
     "footer     footer      footer";
-    
-    
     margin: 1rem;
     margin-left: 4rem;
     margin-right: 4rem;
@@ -44,14 +42,7 @@ h1 {
 #header {
     grid-area: header;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-    gap: 2rem;
-    
-    
-    
+    flex-direction: column;  
 }
 
 #firstheader {
@@ -59,33 +50,31 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "img   titulo  domicilio";
-    
+    "imagen   empty  domicilio"
+    "navegacion navegacion navegacion";
     width: 100%;
-    align-items: center;  
-
-}
-
-
-.headerimg {
-    grid-area: img;
-    height: 10rem ; width: 10rem;
-    margin-bottom: 1rem;
    
 }
 
-.title {
-    grid-area: titulo;
-    text-align: center;
-    font-size: 2rem;
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.imagen {
+    grid-area: imagen;
+    width: 10rem;
+    height: 10rem;
+    justify-content: baseline;
+    padding: 1rem;
+}
 .header2 {
     grid-area: domicilio;
-    text-align: end;
-    padding: 1rem;
+    text-align: right;
+    padding: 2rem;
     font-size: .8rem;
-    font-weight: 660;
+    font-weight: 250;
 }
 
 #conteiner {
@@ -130,7 +119,7 @@ h1 {
 
 #centralimg {
     grid-area: centralimg;
-    height: 25rem; width: 25rem;
+    height: 30rem; width: 30rem;
     padding: 4rem;
     
 }
