@@ -27,6 +27,7 @@ h1 {
     grid-template-rows: auto 1fr auto auto;
     grid-template-areas: 
     "header     header      header"
+    "carrusel   carrusel    carrusel"
     "conteiner  conteiner   conteiner"
     "banner     centralimg  banner2"
     "footer     footer      footer";
@@ -77,6 +78,25 @@ h1 {
     font-weight: 250;
 }
 
+#carrusel {
+    grid-area: carrusel;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.conteiner1 img{
+    height: 25rem ; width: 25rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    margin-top: none;
+}
+
+.conteiner1 img:hover {
+    height: 30rem; width: 30rem;
+    transition: 2s;
+}
+
 #conteiner {
     grid-area: conteiner;
     display: flex;
@@ -84,21 +104,8 @@ h1 {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    
+   
 }
-
-.conteiner1 img{
-    height: 20rem ; width: 20rem;
-    margin: 1rem;
-    border-radius: 2rem;
-    margin-top: none;
-}
-
-.conteiner1 img:hover {
-    height: 24rem; width: 24rem;
-    transition: 2s;
-}
-
 
 
 .conteiner2 {
