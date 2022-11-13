@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../PreEntrega-2-Ferreyra/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -22,7 +21,7 @@
 
         <section class="encabezado">
 
-        <div class="imagen">
+        <div class="imagen animate_animated animate__heartBeat">
 
             <img src="img/logo sillas3.webp" alt="" srcset="">
 
@@ -39,38 +38,36 @@
 
         </section >
 
-        <nav class="navbar navbar-expand-lg bg-light w-100 " >
+        <nav class="navbar navbar-expand-lg bg-light w-100 " style="font-size:.8rem ;">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a href="#"><i class="fa-solid fa-house navbar-brand " > </i> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a href="#"><i class="fa-solid fa-play nav-link"> Inicio</i> </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a href="#"> <i class="nav-link fa-solid fa-envelope ">  Contacto</i> </a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
+                  <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><i class="nav-link dropdown-toggle fa-solid fa-chair" > Productos </i> </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a href="./pages/sillasgamer.html"> <i class="dropdown-item fa-solid fa-gamepad" > Sillas Gamer</i> </a></li>
+                    <li><a href="./pages/sillasdeoficina.html"> <i class="dropdown-item fa-solid fa-building"> Sillas de oficina</i> </a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a href="./pages/sillasrusticas.html"> <i class="dropdown-item fa-solid fa-industry"> Rusticas</i> </a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
+                  <a href="#"> <i class="nav-link fa-solid fa-circle-question"> Preguntas frecuentes </i> </a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
             </div>
           </div>
