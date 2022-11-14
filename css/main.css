@@ -150,7 +150,7 @@ h1 {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 483px) {
   .conteiner1 img {width: 21rem; height: 21rem;}
   .conteiner1 img:hover {
     height: 21rem;
