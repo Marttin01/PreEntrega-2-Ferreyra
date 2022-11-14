@@ -150,6 +150,16 @@ h1 {
     
 }
 
+@media screen and (max-width: 500px) {
+
+  .conteiner1 img:hover {
+    height: 25rem;
+    width: 25rem;
+    
+  }
+  .grilla {margin-right: 1rem;}
+
+}
 
 #banner {
   grid-area: banner;
