@@ -151,10 +151,10 @@ h1 {
 }
 
 @media screen and (max-width: 500px) {
-
+  .conteiner1 img {width: 21rem; height: 21rem;}
   .conteiner1 img:hover {
-    height: 25rem;
-    width: 25rem;
+    height: 21rem;
+    width: 21rem;
     
   }
   .grilla {margin-right: 0;}
