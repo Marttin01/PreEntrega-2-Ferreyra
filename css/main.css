@@ -14,8 +14,9 @@ img {
 }
 
 h1 {
-  display: inline;
+  display: block;
   padding: 1rem;
+  border-bottom: 1px solid black;
 }
 
 
@@ -34,7 +35,16 @@ h1 {
   margin-right: 4rem;
   background-color: #b8b8ff;
   color: white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.grilla{
+    padding:0rem ; 
+    box-shadow: 0px 10px 10px 0px gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -343,5 +353,39 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     gap: 2rem;
     justify-content: center;
+}
+
+.accordion {
+    margin-top: 4rem;
+    width: 50%;
+}
+
+.preguntas1 {
+    display: flex;
+    margin-top: .5rem;
+    padding: 2rem;
+}
+
+.signopregunta {
+    height: 22rem; width: 22rem;
+    margin-top: 14rem;
+    margin-left: 2rem;
+}
+
+.faq1-1 p{
+   padding: .4rem;
+   border-bottom: 1px solid grey;
+}
+
+.faq1-1 h4,h5{
+    border-bottom: 1px solid grey;
+    background-color: #F8F9FA;
+    border-TOP: 1px solid grey;
+    padding: .4rem;
+}
+
+.faq1-1 h5:hover {
+    font-size: 1.5rem;
+    transition: 2s;
 }
 
